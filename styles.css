@@ -2,3 +2,78 @@ section, main, footer {
     margin: 0;
     background:black;
 }
+.navbar {
+    font-size: 20px;
+}
+header {
+    display:flex;
+    height: 25vh;
+    align-items:end;
+    justify-content:center;
+    background-image:url("https://cdn.pixabay.com/photo/2018/09/08/11/09/jazz-3662296_960_720.png");
+    background-size:contain;
+    background-position:50% 25%;
+    background-color:rgb(253, 225, 62);
+    border-bottom: 5px solid red; 
+}
+.en_tete {
+    width:35em;
+}
+.GM5 {
+    color:rgb(65, 207, 226);
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 3em;
+    font-weight:bolder;
+    text-shadow:4px 4px 5px black ;
+}
+.Asso, .Asso2 {
+   text-align: center;
+   font-size: 15px;
+}
+.Asso2 {
+    font-size:1.5em;
+    color:rgb(245, 0, 0);
+}
+iframe {
+    width:85%;
+    height: 400px;
+}
+.event {
+    color:orange;
+    text-align: left;
+}
+.textPromo {
+    font-size: 1.5em;
+    color: rgb(252, 86, 230);
+    text-decoration: underline;
+    text-align: center;
+}
+.titreVignette {
+    font-size: 30px;
+    color:bisque;
+}
+.titreVignetteEvent {
+    font-size: 40px;
+    color:black;
+}
+.titreEvent {
+    color:bisque;
+}
+.imgp0 {
+    border-radius: 20px;
+}
+.photo, .affiche, .galerie, .contact {
+    color:bisque;
+    text-align: center;
+    border: red 1px solid;
+    border-radius: 40px;
+}
+footer {
+    height:10vh;
+    color:lightyellow;
+    font-size: 1em;
+}
+.phoneNumber,.emailpdp {
+    color: rgb(252, 86, 230);
+}
