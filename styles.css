@@ -105,3 +105,26 @@ footer {
     text-align: justify;
    
 }
+/*/////////////// style pageActu ////////////////////////////*/
+
+.card {
+    color:black;
+}
+.avenir {
+   background:yellow;
+   text-align: center;
+}
+.card-date {
+   color:rgb(250, 250, 250);
+}
+.card-body {
+   background:red;
+   width:100%; 
+}
+.lienYTpage2 {
+   color:yellow;
+}
+.pageContact {
+   text-align: center;
+}
+
