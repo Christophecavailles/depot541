@@ -1,4 +1,4 @@
-section, main, footer {
+html, section, main, footer {
     margin: 0;
     background:black;
 }
@@ -53,13 +53,6 @@ iframe {
     font-size: 30px;
     color:bisque;
 }
-.titreVignetteEvent {
-    font-size: 40px;
-    color:black;
-}
-.titreEvent {
-    color:bisque;
-}
 .imgp0 {
     border-radius: 20px;
 }
@@ -72,8 +65,16 @@ iframe {
 footer {
     height:10vh;
     color:lightyellow;
-    font-size: 1em;
+    font-size: 0.75em;
 }
+
+/* Ma média query ne fonctionne pas et je ne sais pas pourquoi  :( */
+@media screen and (max-width: 166px) {
+    footer {
+    font-size: 1em;
+    }
+}
+
 .phoneNumber,.emailpdp {
     color: rgb(252, 86, 230);
 }
@@ -128,12 +129,3 @@ footer {
 .pageContact {
    text-align: center;
 }
-/*.col-3 {
-    ;
-}
-
-@media screen and (max-width: 1400px) {
-.col-3 {
-    width: 40vw;
-}
-}*/
