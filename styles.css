@@ -109,6 +109,7 @@ footer {
 
 .card {
     color:black;
+    margin: 15px;
 }
 .avenir {
    background:yellow;
@@ -127,4 +128,12 @@ footer {
 .pageContact {
    text-align: center;
 }
+/*.col-3 {
+    ;
+}
 
+@media screen and (max-width: 1400px) {
+.col-3 {
+    width: 40vw;
+}
+}*/
